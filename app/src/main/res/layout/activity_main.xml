@@ -21,6 +21,9 @@
             android:textColor="#00e5a0" android:textSize="15sp"
             android:gravity="center_vertical" android:textIsSelectable="true"
             android:hint="Наведите камеру на QR-код" android:textColorHint="#8a8a9a"/>
+        <Button android:id="@+id/goBtn" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="🔗 Перейти по ссылке"
+            android:visibility="gone" android:layout_marginBottom="8dp"/>
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
             android:orientation="horizontal">
             <Button android:id="@+id/copyBtn" android:layout_width="0dp"
